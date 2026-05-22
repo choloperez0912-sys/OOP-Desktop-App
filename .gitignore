@@ -1,0 +1,28 @@
+# ==============================================
+#  CalcApp .gitignore
+# ==============================================
+
+# ── Secrets (NEVER commit these) ─────────────
+.env
+
+# ── Java build output ─────────────────────────
+out/
+*.class
+*.jar
+*.war
+
+# ── VS Code ───────────────────────────────────
+.vscode/settings.json
+.vscode/launch.json.local
+
+# ── OS files ─────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Maven / Gradle (if added later) ──────────
+target/
+build/
+.gradle/
+*.iml
+.idea/
